@@ -1,12 +1,12 @@
 #Data Cleaning
 
-SELECT * 
+SELECT *
 FROM layoffs;
 
 # 1. Remove Duplicates
 # 2. Standardize the data
 # 3. Null Values or Blank values
-# 4. Remove any columns 
+# 4. Remove any unwanted columns without changing the meaning of the table structure.
 
 # Creating a Table "layoffs_staging" similar to layoffs (to maintain the structure)
 CREATE TABLE layoffs_staging
