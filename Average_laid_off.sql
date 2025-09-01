@@ -1,3 +1,4 @@
-#Lets see what the max value is 
-SELECT avg(total_laid_off)
+
+#LEts see what the min value is
+SELECT MIN(total_laid_off)
 FROM layoffs_staging_2;
