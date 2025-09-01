@@ -38,7 +38,7 @@ WHERE row_num > 1;
 # -- Verifying the above query.
 SELECT 
 * FROM layoffs_staging
-WHERE company = 'Casper';
+WHERE company = 'Apple' and location = 'United States'
 
 #Creating another staging layoffs so that main table remains intact
 CREATE TABLE `layoffs_staging_2` (
